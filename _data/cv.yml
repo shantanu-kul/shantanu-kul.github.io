@@ -2,96 +2,229 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Shantanu Kulshreshth
+    - name: Contact Email
+      value: kulshreshtha.shantanu@gmail.com
+    - name: Phone
+      value: (61)0420521253
+    - name: Address
+      value: 221 Bouverie Street, Carlton, VIC 3053
+    - name: Website
+      value: http://shantanukul.phd.sh
     - name: Languages
-      value: English, German
+      value: Hindi (Fluent), English (Fluent), French (A2 French Standard), Urdu (Intermediate)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, School of Geography, Earth and Atmospheric Sciences
+      institution: University of Melbourne
+      year: 2021-2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Funded under ARC Project: Youth and the Politics of Liberalism in India.
+        - "Supervisors: Prof. Craig Jeffrey (Principal Supervisor) and Prof. Jane Dyson (Co-Supervisor)"
+    - title: M.A (Hons.) by Research, Department of Political Science
+      institution: Ashoka University
+      year: 2020-2021
       description:
-        - Description 1.
-        - Description 2.
+        - "Thesis title: The Revolution Will Be Tweeted: Bhim Army and Social Media Mobilisation."
+        - "CGPA: 3.82/4"
+    - title: PGD in Liberal Arts (Young India Fellowship)
+      institution: Ashoka University
+      year: 2019-2020
+      description:
+        - Recipient of Rosey Blue Foundation Scholarship.
+        - CGPA of 3.68/4
+    - title: Bachelor of Arts (Honours), Department of Political Science
+      institution: University of Delhi, Kirori Mal College
+      year: 2016-2019
 
-- title: Experience
+- title: Research Employment
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Associate (Remote)
+      institution: Sparx Centre for Livelihood Research
+      year: 2021-2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Prepared a handbook on Indian Politics and Governance.
+        - Prepared reports and briefs on unemployment, labour, youth, and agricultural incomes in India.
+    - title: Research Associate
+      institution: Centre for Policy Research (New Delhi)
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Managing the Uttar Pradesh taskforce to coordinate interdepartmental research before the 2022 elections.
+        - Undertaking independent fieldwork based research on political families and local political economy.
+    - title: Research Affiliate
+      institution: Albert Hirschman Centre on Democracy (Geneva)
+      year: 2021
       description:
+        - "Working with Professor Shalini Randeria on the 'Everyday State in India' at the Graduate Institute, Geneva"
+    - title: Research Assistant
+      institution: Trivedi Centre for Political Data (Sonipat)
+      year: 2020-2021
+      description:
+        - Compiling caste data for MLA Candidates in Madhya Pradesh from 1962-2018.
+        - Working on enhancing parameters for publicly available electoral data with the Lokdhaba project.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "'Kaam: Youth, Religiosity, and the cultural production of good work in a North Indian Madrasa'"
+      year: 2024
+      description:
+        - "Environment and Planning D: Society and Space (Online first). DOI: 10.1177/02637758241302198"
+    - title: "'Social Media Is the Second Ambedkar\": Bhim Army and Social Media Mobilisation in North India'"
+      year: 2023
+      description:
+        - "South Asia: Journal of South Asian Studies 46 (5): 934-55. DOI: 10.1080/00856401.2023.2216514"
+    - title: "'The State Is the Biggest Goonda\": Civic Masculinity, Radical Victimhood, and Power in Bhim Army Discourse'"
+      year: 2023
+      description:
+        - "South Asia Multidisciplinary Academic Journal, no. 31. DOI: 10.4000/kjzb"
+    - title: "'Love, Sex, and Other Drugs: Youth, Islam, and the everyday poetics of Infrastructures in North India'"
+      year: Under Review
+      description:
+        - Journal of the Royal Anthropological Institute
+    - title: "'Becoming serious young men: Joblessness, platform enterprising, and the contradictory production of Amazon reselling in North India'"
+      year: Under Review
+      description:
+        - Geoforum
+  # Note: A comprehensive list of publications is best managed via a separate .bib file in the _bibliography/ folder for this type of theme.
 
-- title: Honors and Awards
+- title: Scholarships and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021-2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Melbourne Research Scholarship, University of Melbourne
+    - year: 2019-2020
       items:
-        - Max Planck Medal
+        - Rosey Blue Foundation Scholarship
+    - year: 2019
+      items:
+        - "Excellence in Debating, Kirori Mal College, University of Delhi"
+    - year: 2016
+      items:
+        - "International Award for Young People-Gold Standard, Duke of Edinburgh Foundation"
+
+- title: Selected Grants
+  type: time_table
+  contents:
+    - title: Miegunyah International Scholarship
+      institution: Russel and Mab Grimwade Miegunyah Fund, University of Melbourne
+      year: 2022
+      description:
+        - To support international conference presentations.
+        - "Value: AUD$10,000"
+    - title: RDU Initiative Grant
+      institution: Research Development Unit, University of Melbourne
+      year: 2023
+      description:
+        - To support the creation of UoM South Asia Graduate Researchers' Collective (with Nishtha Tewari, Avishek Jha).
+        - "Value: AUD$9,000"
+    - title: Caldwell Graduate Humanities/Social Sciences Scholarship
+      institution: Caldwell Trust and Queen's College Melbourne
+      year: 2024
+      description:
+        - "Value: AUD$5,200"
+    - title: "Event Support Grant, South Asia Forum Conference"
+      institution: "Chancellery Global, Culture and Engagement & School of Geography, Earth and Atmospheric Sciences, University of Melbourne"
+      year: 2024
+      description:
+        - With Nishtha Tewari, Avishek Jha.
+        - "Value: AUD$5250"
+    - title: Charpak Scholarship
+      institution: Campus France-French Embassy of India
+      year: 2020
+      description:
+        - To pursue research at CNRS-Sciences Po.
+        - "Value: EUR€4,500"
+
+- title: Teaching Portfolio
+  type: time_table
+  contents:
+    - title: Sessional Senior Tutor - Fertility, Mortality, and Social Change
+      institution: University of Melbourne
+      year: 2024-ongoing
+      description:
+        - "Tutored, graded assignments, and independently supervised research projects for ~60 students across three tutorial sections (Level 2, ~100 students, 72 contact hours)."
+    - title: Sessional Tutor - Local Sites, Global Connections
+      institution: University of Melbourne
+      year: 2024
+      description:
+        - "Tutoring for small group seminars, supervising research projects, and grading assignments (Level 3, ~20 students, 18 contact hours)."
+    - title: Casual Tutor - Human Geography (at-large)
+      institution: Queen's College Melbourne (for University of Melbourne)
+      year: 2024
+      description:
+        - "Employed by Queen's College Melbourne (Level 1-3)."
+    - title: Teaching Assistant - Party Politics in India
+      institution: Ashoka University
+      year: 2021
+      description:
+        - "Graded assignments, provided individual feedback. Independently conceptualised, designed, and delivered workshops on Data Visualisation and Digital Ethnography (Postgrad, ~100 students, 30 contact hours)."
+    - title: Graduate Teaching Assistant - Electoral and Party Politics in India
+      institution: Ashoka University
+      year: 2021
+      description:
+        - "Delivered two lectures: \"Beyond Dalit Parties: Bhim Army Mobilisation\", and \"Internet and New Forms of Electoral Mobilisation\". Graded assignments, provided individual feedback (Level 3, ~60 students, 40 contact hours)."
+
+- title: Academic Service
+  type: time_table
+  contents:
+    - title: "Co-convener and organiser, South Asia Forum Graduate Research Conference"
+      institution: University of Melbourne
+      year: 2024
+    - title: "Elected At-large Board Member, Geographies of Religion and Belief Systems Group"
+      institution: American Association of Geographers (AAG)
+      year: 2024-Ongoing
+    - title: Co-Convener, University of Melbourne South Asia Forum
+      institution: University of Melbourne
+      year: 2023-Ongoing
+    - title: Peer Reviewer
+      institution: SAMAJ and Journal of South Asian Development
+      year: Ongoing
+    - title: "Academic Committee Member, Queen's College Graduate Students Club"
+      institution: Melbourne
+      year: 2024-2025
+    - title: "Co-founder, Queer Infoline, India"
+      institution: (along with Centre for Studies in Gender and Sexuality, Ashoka University)
+      year: 2019-2021
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Youth Studies
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Youth and politics in South Asia
+        - "Young people's navigations of social change, unemployment, and Hindu Nationalism in India"
+        - Youth religiosity and cultural production of work
+        - Youth masculinities and inter-gender sociality
+    - title: "Political Mobilisation & Ethnography"
       items:
-        - Description 1.
-        - Description 2.
+        - Social media and political movements (e.g., Bhim Army)
+        - Dalit youth movements and discourse
+        - Infrastructures and everyday poetics in North India
+        - Ethnographic fieldwork methods
+    - title: "Economic Anthropology & Platform Studies"
+      items:
+        - Joblessness and platform enterprising (e.g., Amazon reselling)
+        - Contested mobilities and education policy for young Muslim women
+    - title: South Asian Studies
+      items:
+        - Queer(ing) South Asia in Australia
+        - Politics of Uttar Pradesh
+        - Indian elections and party systems
 
-- title: Other Interests
+- title: Other Information
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u>Certifications:</u> Key Concepts and Critical Thought (Awarded by St. Stephen's College, University of Delhi)"
+    - "<u>Memberships:</u> American Association of Geographers (AAG), South Asian Studies Association of Australia (SASAA), Institute of Australian Geographers (IAG), Graduate Researchers' Collective - South Asia Forum"
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.

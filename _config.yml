@@ -2,24 +2,24 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Shantanu Kulshreshth # the website title (if blank, full name will be used instead)
+first_name: Shantanu
+# middle_name: R. # Keep commented out unless you specifically need it and your theme supports it 
+last_name: Kulshreshth
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Please feel free to reach out via email or connect on social media.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Shantanu Kulshreshth - PhD Candidate at the University of Melbourne. Researching Youth, Labour, Identity, and South Asia.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  All photos on this site were clicked by me during multiple rounds of fieldwork.
+keywords: Shantanu Kulshreshth, PhD Candidate, University of Melbourne, Youth, Politics, South Asia, Hindu Nationalism, Unemployment, Social Change, India, Ethnography, Saharanpur, Deobandi Madrasa, Amazon Resellers, GSA, AAG, GORABS, Queer South Asia, CPR, Bhim Army, Dalit Youth, Political Science # add your own keywords or leave emptyleave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://shantanu-kul.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: "" # Corrected: Ensured this is an empty string for a root site
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -32,7 +32,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: true # Note: indentation here was slightly different in your paste, ensuring 2 spaces
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -63,9 +63,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/shantanu_profile.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -93,10 +93,10 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: true # Note: indentation here was slightly different in your paste, ensuring 2 spaces
 
 related_blog_posts:
-  enabled: true
+  enabled: true # Note: indentation here was slightly different in your paste, ensuring 2 spaces
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -122,7 +122,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
+  - name: medium.com # Note: indentation here was slightly different in your paste, ensuring 2 spaces for list items
     rss_url: https://medium.com/@al-folio/feed
   - name: Google Blog
     posts:
@@ -134,7 +134,7 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 newsletter:
-  enabled: false
+  enabled: false # Note: indentation here was slightly different in your paste, ensuring 2 spaces
   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 
@@ -144,13 +144,13 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false # Set to false as we're not focusing on a "books" section for now. Change to true if you add one.
   news:
     defaults:
-      layout: post
-    output: true
+      layout: post # Default layout for news items. This is usually fine.
+    output: true   # Keep news enabled.
   projects:
-    output: true
+    output: true   # Keep projects enabled.
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -160,7 +160,7 @@ collections:
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM
+  input: GFM # Note: indentation here was slightly different in your paste, ensuring 2 spaces
   syntax_highlighter_opts:
     css_class: "highlight"
     span:
@@ -172,7 +172,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
-  - bin/
+  - bin/ # Note: indentation here was slightly different in your paste, ensuring 2 spaces for list items
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -191,13 +191,15 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - posts/ # Add this line to exclude the posts directory
+  - pages/blog.md # Add this line if you have a specific blog page like /_pages/blog.md
 keep_files:
-  - CNAME
+  - CNAME # Note: indentation here was slightly different in your paste, ensuring 2 spaces for list items
   - .nojekyll
 
 # Plug-ins
 plugins:
-  - jekyll-archives-v2
+  - jekyll-archives-v2 # Note: indentation here was slightly different in your paste, ensuring 2 spaces for list items
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -217,20 +219,20 @@ plugins:
 
 # Sitemap settings
 defaults:
-  - scope:
+  - scope: # Note: indentation here was slightly different in your paste, ensuring 2 spaces for list items
       path: "assets"
     values:
       sitemap: false
 
 sass:
-  style: compressed
+  style: compressed # Note: indentation here was slightly different in your paste, ensuring 2 spaces
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  compress_javascript: false # set to false since we are using terser as the js minifier
+  compress_javascript: false # set to false since we are using terser as the js minifier # Note: indentation here was slightly different in your paste, ensuring 2 spaces
   exclude: ["robots.txt", "assets/js/search/*.js"]
 
 # -----------------------------------------------------------------------------
@@ -238,7 +240,7 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 terser:
-  compress:
+  compress: # Note: indentation here was slightly different in your paste, ensuring 2 spaces
     drop_console: true
 
 # -----------------------------------------------------------------------------
@@ -246,7 +248,7 @@ terser:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  posts:
+  posts: # Note: indentation here was slightly different in your paste, ensuring 2 spaces
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
       year: "/blog/:year/"
@@ -263,8 +265,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Kulshreshth] # Note: indentation here was slightly different in your paste, ensuring 2 spaces
+  first_name: [Shantanu]
 
   style: apa
   locale: en
@@ -290,14 +292,14 @@ scholar:
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
+  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html) # Note: indentation here was slightly different in your paste, ensuring 2 spaces
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
   google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
-  [
+  [ # Note: indentation here was slightly different in your paste, ensuring 2 spaces for list items
     abbr,
     abstract,
     additional_info,
@@ -335,7 +337,7 @@ enable_publication_thumbnails: true
 
 # These are the defaults
 external_links:
-  enabled: true
+  enabled: true # Note: indentation here was slightly different in your paste, ensuring 2 spaces
   rel: external nofollow noopener
   target: _blank
   exclude:
@@ -347,7 +349,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537) # Note: indentation here was slightly different in your paste, ensuring 2 spaces
   widths:
     - 480
     - 800
@@ -399,7 +401,7 @@ enable_video_embedding: false # enables video embedding for bibtex entries. If f
 # The integrity hash is used to ensure that the library is not tampered with.
 # Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
 third_party_libraries:
-  download: false # if true, download the versions of the libraries specified below and use the downloaded files
+  download: false # if true, download the versions of the libraries specified below and use the downloaded files # Note: indentation here was slightly different in your paste, ensuring 2 spaces
   bootstrap-table:
     integrity:
       css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
@@ -440,7 +442,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons|EB+Garamond:400,400i,700&display=swap"
   highlightjs:
     integrity:
       css:
@@ -625,11 +627,11 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume
+  - data: resume # Note: indentation here was slightly different in your paste, ensuring 2 spaces for list items
     json: assets/json/resume.json # it can also be an url
 
 jsonresume:
-  - basics
+  - basics # Note: indentation here was slightly different in your paste, ensuring 2 spaces for list items
   - work
   - education
   - publications

@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;header&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;nav id="navbar"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">       </span>class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %} site-header {% if page.banner_image %}has-banner-background{% endif %}"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">       </span>role="navigation"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">       </span>{% if page.banner_image %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">         </span>style="background-image: url('{{ page.banner_image | relative_url }}');"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">       </span>{% endif %}&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="navbar-overlay"&gt;&lt;/div&gt; &lt;div class="container"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% if page.permalink != '/' %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% if site.title == 'blank' %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% if site.first_name %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;span class="font-weight-bold"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>{{- site.first_name -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% if site.middle_name %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{{- site.middle_name -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% if site.last_name %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{{- site.last_name -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% else %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{{- site.title -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% elsif site.enable_navbar_social %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="navbar-brand social"&gt;{% raw %}{% include social.liquid %}{% endraw %}&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;button</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>class="navbar-toggler collapsed ml-auto"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>type="button"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>data-toggle="collapse"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>data-target="#navbarNav"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>aria-controls="navbarNav"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>aria-expanded="false"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>aria-label="Toggle navigation"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;span class="icon-bar top-bar"&gt;&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;span class="icon-bar middle-bar"&gt;&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;span class="icon-bar bottom-bar"&gt;&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/button&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="collapse navbar-collapse text-right" id="navbarNav"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;ul class="navbar-nav ml-auto flex-nowrap"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% comment %} Changed loop variable from 'page' to 'page_item' to avoid conflict with global 'page' object {% endcomment %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% for page_item in site.pages %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% if page_item.permalink == '/' %} {% assign about_title = page_item.title %} {% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% endfor %}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;li class="nav-item {% if page.permalink == '/' %}active{% endif %}"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a class="nav-link" href="{{ '/' | relative_url }}"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{{- about_title }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% if page.permalink == '/' %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;span class="sr-only"&gt;(current)&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/li&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% assign sorted_pages = site.pages | sort: 'nav_order' %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% for p in sorted_pages %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% if p.nav and p.autogen == null %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% if p.dropdown %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>{% assign has_active_child = false %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>{% for child in p.children %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>{% if page.title == child.title %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{% assign has_active_child = true %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>{% endfor %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&lt;a</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>class="nav-link dropdown-toggle"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>href="#"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>id="navbarDropdown{{ forloop.index }}" {# Made ID unique #}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>role="button"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>data-toggle="dropdown"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>aria-haspopup="true"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>aria-expanded="false"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{{- p.title }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{% if page.title == p.title or has_active_child %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;span class="sr-only"&gt;(current)&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&lt;div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown{{ forloop.index }}"&gt; {# Matched unique ID #}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{% for child in p.children %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>{% if child.title == 'divider' %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="dropdown-divider"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>{% else %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;a</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>class="dropdown-item {% if page.title == child.title %}active{% endif %}"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>{{- child.title -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{% endfor %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% else %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>{% assign parent_link = p.permalink | remove: 'index.html' %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li class="nav-item {% if page.url contains parent_link %}active{% endif %}"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>{%- if p.permalink contains '://' -%}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{%- assign url = p.permalink -%}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>{%- elsif p.permalink contains '/blog/' -%}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{%- assign url = '/blog/' -%} {# This will use relative_url filter later #}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>{%- else -%}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{%- assign url = p.url -%}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>{%- endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&lt;a class="nav-link" href="{{ url | relative_url }}"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{{- p.title }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{% if page.url contains p.url %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;span class="sr-only"&gt;(current)&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% endfor %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% if site.search_enabled %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;li class="nav-item"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;button id="search-toggle" title="Search" onclick="openSearchModal()"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;span class="nav-link"&gt;ctrl k &lt;i class="ti ti-search"&gt;&lt;/i&gt;&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% if site.enable_darkmode %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;li class="toggle-container"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;button id="light-toggle" title="Change theme"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;i class="ti ti-sun-moon" id="light-toggle-system"&gt;&lt;/i&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;i class="ti ti-moon-filled" id="light-toggle-dark"&gt;&lt;/i&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;i class="ti ti-sun-filled" id="light-toggle-light"&gt;&lt;/i&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/nav&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if site.enable_progressbar %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;progress id="progress" value="0"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="progress-container"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;span class="progress-bar"&gt;&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/progress&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
+<p class="p1"><span class="s1">&lt;/header&gt;</span></p>
+</body>
+</html>

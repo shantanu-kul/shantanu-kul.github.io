@@ -1,9 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Queering South Asia in Australia
+description: Seminar Series at the University of Melbourne
+img: assets/img/GaijGhiaEAABsWO.jpg
 importance: 2
+redirect: https://x.com/SAFUnimelb
 category: work
 giscus_comments: true
 ---

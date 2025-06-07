@@ -51,3 +51,42 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+// ***** START NEW BANNER CSS *****
+// You can add the new banner styles here:
+
+.page-banner-container {
+  width: 100%;
+  // You might want to remove side margins if your main content is in a container
+  // but you want the banner to be full-width visually.
+  // This depends on your theme's overall structure.
+}
+
+.page-banner {
+  height: 300px; // Adjust to your desired banner height (e.g., 250px, 40vh)
+  background-size: cover; // Makes the image cover the area, may crop
+  background-position: center center; // Centers the image
+  background-repeat: no-repeat;
+  position: relative; // For positioning the overlay
+  display: flex; // For centering title if you have one
+  align-items: center; // For centering title
+  justify-content: center; // For centering title
+  text-align: center;
+  // margin-bottom: 2rem; // Optional: Space between banner and content below
+}
+
+.banner-title-overlay {
+  // Optional: if you want a semi-transparent overlay behind the title for readability
+  // background-color: rgba(0, 0, 0, 0.3); // Dark overlay
+  // padding: 1rem 2rem;
+  // border-radius: 5px;
+
+  h1 {
+    color: white; // Assuming dark banners, adjust if images are light
+    // text-shadow: 1px 1px 3px rgba(0,0,0,0.5); // Optional text shadow for readability
+    margin: 0;
+    font-size: 2.5rem; // Adjust as needed
+  }
+}
+
+// ***** END NEW BANNER CSS *****
