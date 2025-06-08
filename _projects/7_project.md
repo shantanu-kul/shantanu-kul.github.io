@@ -2,7 +2,7 @@
 layout: page
 title: Bhim Army and Dalit Social Media mobilisation in North India
 description: M.A Research Project
-img: assets/img/4.heic
+img: assets/img/4.jpg
 importance: 1
 category: work
 related_publications: true
@@ -13,14 +13,14 @@ This project examines the rise of the Bhim Army—a grassroots Dalit rights orga
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/RCSAF Talk.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/RCSAF Talk.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/picture1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/pic1.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+   Representative images
 </div>
 
 I have two journal articles published from this project. One in South Asia: Journal of South Asian Studies {% cite kulshreshth_social_2023 %} and the other in South Asia Multidisciplinary Academic Journal {% cite kulshreshth_state_2023 %}. I have also written a public-facing newspaper article on the Azad Samaj Party's win in Nagina for the Indian Express {% cite noauthor_chandrashekhar_2024 %}
