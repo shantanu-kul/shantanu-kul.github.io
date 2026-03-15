@@ -24,7 +24,7 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Youth | Work | Social Identity | Infrastructures 
+Youth | Work | Social Identity | Infrastructures
 
 I am a PhD Candidate in the School of Geography at the University of Melbourne. My doctoral research looks at young Muslim people's  navigation of converging crises of Hindu Nationalism, socioecnomic precarity,and infrastructural social change in India through discursive practices of work. I have conducted over 14 months of ethnographic fieldwork in the North Indian city of Saharanpur and submitted my thesis for examination on 17 November 2025. An advance paper drawing from my research with young people studying in a leading Deobandi Madrasa has recently been published in by Environment and Planning D: Society and Space. It can be found <a href='https://journals.sagepub.com/doi/10.1177/02637758241302198'> here </a>. My second empirical chapter which looks at young people working as Amazon resellers is currently under review.
 
