@@ -35,6 +35,6 @@ Before my PhD, I worked as a Research Associate in the Politics team at the Cent
 
 My master's thesis at Ashoka University analysed the rise of the Bhim Army--a popular on-ground Dalit youth movement in North India, with a special focus on the organisation's use of social media. The results from the thesis have been published in the form of <a href=publications> two journal articles </a>. I am working on publishing a third article on the Azad Samaj Party--the political wing of the Bhim Army. 
 
-I graduated with a B.A (Honours) in Political Science from Kirori Mal College at the University of Delhi.
+I graduated with a B.A (Honours) in Political Science from Kirori Mal College at the University of Delhi. 
 
 All the photos used on this site were clicked by me during multiple rounds of fieldwork. 
