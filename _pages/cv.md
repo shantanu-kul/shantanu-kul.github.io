@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
 nav: true
@@ -9,3 +9,24 @@ description: "Last updated: 2 June 2025"
 toc:
   sidebar: left
 ---
+
+<div class="post">
+  <div class="cv">
+    <div class="row">
+      <div class="col-sm-12">
+        <a href="{{ '/assets/pdf/RevisedCVShantanu18032026.docx.pdf' | relative_url }}" target="_blank" class="btn btn-sm z-depth-1" role="button">Download PDF</a>
+      </div>
+    </div>
+    
+    <br>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <iframe src="{{ '/assets/pdf/Shantanu_Kul_CV.pdf' | relative_url }}" width="100%" height="800px" style="border: none;">
+            This browser does not support PDFs. Please download the PDF to view it: 
+            <a href="{{ '/assets/pdf/Shantanu_Kul_CV.pdf' | relative_url }}">Download PDF</a>
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
