@@ -22,9 +22,9 @@ toc:
 
     <div class="row">
       <div class="col-sm-12">
-        <iframe src="{{ '/assets/pdf/Shantanu_Kul_CV.pdf' | relative_url }}" width="100%" height="800px" style="border: none;">
+        <iframe src="{{ '/assets/pdf/RevisedCVShantanu18032026.docx.pdf' | relative_url }}" width="100%" height="800px" style="border: none;">
             This browser does not support PDFs. Please download the PDF to view it: 
-            <a href="{{ '/assets/pdf/Shantanu_Kul_CV.pdf' | relative_url }}">Download PDF</a>
+            <a href="{{ '/assets/pdf/SRevisedCVShantanu18032026.docx.pdf' | relative_url }}">Download PDF</a>
         </iframe>
       </div>
     </div>
