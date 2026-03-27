@@ -24,10 +24,8 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-<div style="margin-bottom: 20px;">
-  
-  **Youth &nbsp;|&nbsp; Work &nbsp;|&nbsp; Social Identity &nbsp;|&nbsp; Infrastructures**
-  
+<div style="margin-bottom: 25px; font-weight: bold;">
+  Youth &nbsp;|&nbsp; Work &nbsp;|&nbsp; Social Identity &nbsp;|&nbsp; Infrastructures
 </div>
 
 
