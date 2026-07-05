@@ -2,19 +2,19 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Shantanu Kulshreshth # the website title (if blank, full name will be used instead)
+title: Dr. Shantanu Kulshreshth # the website title (if blank, full name will be used instead)
 first_name: Shantanu
 # middle_name: R. # Keep commented out unless you specifically need it and your theme supports it 
 last_name: Kulshreshth
 contact_note: >
   Please feel free to reach out via email or connect on social media.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Shantanu Kulshreshth - PhD Candidate at the University of Melbourne. Researching Youth, Labour, Identity, and South Asia.
+  Shantanu Kulshreshth. Researching Youth, Work, and Digital Politics in South Asia.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   All photos on this site were clicked by me during multiple rounds of fieldwork.
-keywords: Shantanu Kulshreshth, PhD Candidate, University of Melbourne, Youth, Politics, South Asia, Hindu Nationalism, Unemployment, Social Change, India, Ethnography, Saharanpur, Deobandi Madrasa, Amazon Resellers, GSA, AAG, GORABS, Queer South Asia, CPR, Bhim Army, Dalit Youth, Political Science # add your own keywords or leave emptyleave empty
+keywords: Shantanu Kulshreshth, PhD, University of Melbourne, Youth, Politics, South Asia, Hindu Nationalism, Unemployment, Social Change, India, Ethnography, Saharanpur, Deobandi Madrasa, Amazon Resellers, GSA, AAG, GORABS, Queer South Asia, CPR, Bhim Army, Dalit Youth, Political Science # add your own keywords or leave emptyleave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
