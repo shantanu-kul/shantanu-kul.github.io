@@ -4,7 +4,7 @@ title: about
 permalink: /
 banner_image: /assets/img/banners/about-banner.jpg
 banner_title: "About Me" # Optional: for text on the banner
-subtitle: <a href='#'> PhD Candidate in Human Geography </a>. School of Geography, Earth and Atmospheric Sciences, University of Melbourne
+subtitle: <a href='#'> PhD, Human Geography, University of Melbourne </a>.
 
 profile:
   align: right
@@ -29,9 +29,11 @@ latest_posts:
 </div>
 
 
-I am a PhD Candidate in the School of Geography at the University of Melbourne. My doctoral research looks at young Muslim people's  navigation of converging crises of Hindu Nationalism, socioeconomic precarity, and infrastructural social change in India through discursive practices of work. I have conducted over 14 months of ethnographic fieldwork in the North Indian city of Saharanpur and submitted passed my viva on 2 February 2026. An advance paper drawing from my research with young people studying in a leading Deobandi Madrasa has been published in by Environment and Planning D: Society and Space. It can be found <a href='https://journals.sagepub.com/doi/10.1177/02637758241302198'> here </a>. My second empirical chapter which looks at young people working as Amazon resellers was recently published open access in Geoforum and can be found <a href='https://www.sciencedirect.com/science/article/pii/S0016718526000898'> here </a>. My third empirical chapter looking at young people's engagement with religion amidst infrastructural social change in North India is currently in revision. 
+I am an ethnographer of youth, work, and politics in India. My research examines how marginalised young people exercise agency in the context of socioeconomic precarity and majoritarianism. I completed my PhD from the University of Melbourne on 30 April 2026.
 
-I was elected to the board of the Geographies of Religion and Belief Systems (GORABS) group at the American Association of Geographers (AAG). I also co-convene the <a href='https://x.com/SAFUnimelb'> South Asia Forum </a> at the University of Melbourne through which I recently organised a seminar series on "Queer(ing) South Asia in Australia" bringing together queer artists, drag performers, activists, and academics of South Asian descent working in Melbourne. 
+My doctoral research looked at young Muslim people's  navigation of converging crises of Hindu Nationalism, socioeconomic precarity, and infrastructural social change in India through discursive practices of work. I conducted over 14 months of ethnographic fieldwork in the North Indian city of Saharanpur. My first empirical chapter, drawing from my research with young people studying in a leading Deobandi Madrasa, has been published open access in by Environment and Planning D: Society and Space. It can be found <a href='https://journals.sagepub.com/doi/10.1177/02637758241302198'> here </a>. My second empirical chapter which looks at young people working as Amazon resellers was recently published open access in Geoforum and can be found <a href='https://www.sciencedirect.com/science/article/pii/S0016718526000898'> here </a>. My third empirical chapter looking at young people's engagement with religion amidst infrastructural social change in North India is currently in revision. 
+
+I was elected to the board of the Geographies of Religion and Belief Systems (GORABS) group at the American Association of Geographers (AAG). I also co-convene the <a href='https://x.com/SAFUnimelb'> South Asia Forum </a> at the University of Melbourne through which I  organised a seminar series on "Queer(ing) South Asia in Australia" bringing together queer artists, drag performers, activists, and academics of South Asian descent working in Melbourne. 
 
 Before my PhD, I worked as a Research Associate in the Politics team at the Centre for Policy Research (CPR), New Delhi. At CPR, I was involved in producing two research reports on political parties in India as well as leading the team's programming in the run-up to the 2022 UP and Punjab assembly elections. During my time at CPR, I coauthored a policy brief for the UNDP Governance Centre Oslo on digital democracy that can be found <a href='https://doi.org/10.13140/RG.2.2.18535.42404'> here </a>.  
 
